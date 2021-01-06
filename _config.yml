@@ -1,5 +1,5 @@
 title: "JTD test"
-remote_theme: pmarsceill/just-the-docs
+remote_theme: RMWinslow/jtd-test-2
 search_enabled: true
 
 gh_edit_link: false  # show or hide edit this page link
