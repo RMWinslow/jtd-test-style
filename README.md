@@ -4,7 +4,7 @@
 
 tml entities can be used to add marks for octaves and eight notes?
 
-words words wordinos
+words words wordi
 
 
 |3&#775;|`3&#775;`|
