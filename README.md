@@ -2,6 +2,15 @@
 
 🚀 🐼 weee
 
+tml entities can be used to add marks for octaves and eight notes
+
+|3&#775;|`3&#775;`|
+|3&#776;|`3&#776;`|
+|3&#778;|`3&#775;`|
+|3&#803;|`3&#803;`|
+|3&#804;|`3&#804;`|
+|3&#805;|`3&#805;`|
+
 yes
 
 You can use the [editor on GitHub](https://github.com/pmarsceill/test-jtd/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
