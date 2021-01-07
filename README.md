@@ -22,9 +22,6 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 $$x^2_i$$
 
-`\[x^2_i + u_u\]`
-
-Inline latext how you doin? \(x^2\)   `\(x^3\)`   \\(x^4\\)   `$x^5$` $x^6$
 
 ### Markdown
 
