@@ -1,3 +1,6 @@
+1. TOC
+{:toc}
+
 ## Welcome to GitHub Pages
 
 🚀 🐼 weee
