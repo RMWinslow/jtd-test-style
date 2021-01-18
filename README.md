@@ -24,11 +24,11 @@ Here is something more reasonable.
 - beep beep
 </aside>
 
-<aside>
+<aside markdown="block">
 Here's another aside element. I think the issue was simply that JTD is parsing indented lines into code blocks. Or it might be github.
 </aside>
 
-<aside>
+<aside markdown="block">
     See? Here's something similar to the above, but with a tab at the start of the line.
 </aside>
 
