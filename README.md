@@ -15,7 +15,9 @@
 3. hello
 
 
-
+<aside markdown="block">
+    This is a test of an aside element in this tweaked theme.
+</aside>
 
 
 tml entities can be used to add marks for octaves and eight notes? ye
