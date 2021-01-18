@@ -24,9 +24,37 @@ Here is something more reasonable.
 - beep beep
 </aside>
 
+<aside>
+Here's another aside element. I think the issue was simply that JTD is parsing indented lines into code blocks. Or it might be github.
+</aside>
+
+<aside>
+    See? Here's something similar to the above, but with a tab at the start of the line.
+</aside>
+
 tml entities can be used to add marks for octaves and eight notes? ye
 
 words words wordi
+
+
+
+With tabs:
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
+
+Without tabs:
+```mermaid
+graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
+```
 
 
 |3&#775;|`3&#775;`|
