@@ -24,6 +24,8 @@ Here is something more reasonable.
 - beep beep
 </aside>
 
+Potato
+
 <aside markdown="block">
 Here's another aside element. I think the issue was simply that JTD is parsing indented lines into code blocks. Or it might be github.
 </aside>
