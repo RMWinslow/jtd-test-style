@@ -20,6 +20,10 @@
 </aside>
 
 
+<aside markdown="block">
+    This is another aside but without the markdown block thingy.
+</aside>
+
 tml entities can be used to add marks for octaves and eight notes? ye
 
 words words wordi
