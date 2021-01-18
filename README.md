@@ -16,12 +16,12 @@
 
 
 <aside markdown="block">
-    This is a test of an aside element in this tweaked theme.
-</aside>
+# Testing things this is too big
 
-
-<aside markdown="block">
-    This is another aside but without the markdown block thingy.
+Here is something more reasonable.
+- heloo
+- hulloo
+- beep beep
 </aside>
 
 tml entities can be used to add marks for octaves and eight notes? ye
