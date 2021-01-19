@@ -10,7 +10,8 @@
 </div>
 
 1 2 3 4 | 5 6 7 1&#775; | test | 1 2 3 4 | 1234 |4567
-{:.music}
+{: style="font-family: monospace"}
+
 
 
 1. sfdsf
