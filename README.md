@@ -5,6 +5,14 @@
 
 🚀 🐼 weee
 
+<div style="font-family: monospace">
+1 2 3 4 | 5 6 7 1&#775; | test
+</div>
+
+1 2 3 4 | 5 6 7 1&#775; | test | 1 2 3 4 | 1234 |4567
+{:.music}
+
+
 1. sfdsf
     1. neste
     2. nnnn
