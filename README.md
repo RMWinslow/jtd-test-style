@@ -10,7 +10,7 @@
 </div>
 
 1 2 3 4 | 5 6 7 1&#775; | test | 1 2 3 4 | 1234 |4567
-{: style="font-family: monospace"}
+{: style="font-family: monospace; text-align: center;"}
 
 
 
