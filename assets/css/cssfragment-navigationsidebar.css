@@ -1,21 +1,20 @@
 .site-nav details {
     font-size: 14px;
-    margin-left: 1em;
-    border: 1px solid black;
 }
 
 .site-nav summary {
     padding: 0.5rem;
-    border: 1px solid red;
     line-height: 1;
     display: flex;
     justify-content: space-between;
 }
 .site-nav summary::after {
     content: ' ▼';
+    color: var(--accentcolor);
 }
 .site-nav details[open] > summary:after {
     content: " ▲";
+    color: var(--accentcolor);
 }
 
 
@@ -46,7 +45,7 @@
     background-image: linear-gradient(-90deg, var(--feedbackcolor) 0%, var(--feedbackcolor) 70%, #0000 100%);
 }
 .nav-list-link:hover {
-    background-color: var(--feedbackcolor);
+    text-decoration: underline;
 }
 .nav-list .nav-list-item > .nav-list {
     display: none;
