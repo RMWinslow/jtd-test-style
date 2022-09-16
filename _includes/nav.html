@@ -60,9 +60,12 @@
 {%- for node in pages_list -%}
     {%- if node.parent == nil -%}{%- unless node.nav_exclude -%} <!--For each top level page-->
         {%- if node.has_children -%}
-        <li class="nav-list-item{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %}">
+        <details class="nav-list">
+            <summary class="nav-list-item{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %}">
             <a href="{{ node.url | absolute_url }}" class="nav-list-link{% if page.url == node.url %} active{% endif %}">{{ node.title }}</a>
-        </li>
+            </summary>
+            Test text here
+        </details>
         {%- else -%}
         <li class="nav-list-item{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %}">
             <a href="{{ node.url | absolute_url }}" class="nav-list-link{% if page.url == node.url %} active{% endif %}">{{ node.title }} BEANS</a>
