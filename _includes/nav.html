@@ -70,7 +70,7 @@
                 {%- if child.has_children -%}
                 <li class="nav-list-item"><details {% if page.url == child.url or page.parent == child.title %}open{% endif %}>
                     <summary class="{% if page.url == child.url %}active{% endif %}">
-                        <a href="{{ child.url | absolute_url }}" class="nav-list-link{% if page.url == child.url %}active{% endif %}">{{ child.title }}</a>
+                        <a href="{{ child.url | absolute_url }}" class="nav-list-link {% if page.url == child.url %} active{% endif %}">{{ child.title }}</a>
                     </summary>
                     <ul class="nav-list">
                     {%- assign grand_children_list = pages_list | where: "parent", child.title | where: "grand_parent", node.title -%}
