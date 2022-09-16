@@ -15,12 +15,10 @@
     background-color: var(--boxcolor);
 }
 .site-nav summary::after {
-    content: ' ▼';
-    color: var(--accentcolor);
+    content: ' ◀';
 }
 .site-nav details[open] > summary:after {
-    content: " ▲";
-    color: var(--accentcolor);
+    content: " ▼";
 }
 
 
@@ -38,7 +36,6 @@
 .nav-list .nav-list-item > .nav-list-link {
     display: block;
     padding: 0.5rem;
-    color: var(--textcolor);
 }
 .nav-list .nav-list-item .nav-list-link.active {
     font-weight: 600;
@@ -52,4 +49,8 @@
 }
 .nav-list-link:hover {
     text-decoration: underline;
+}
+
+.nav-list .nav-list .nav-list-link, {
+    color: var(--textcolor);
 }
