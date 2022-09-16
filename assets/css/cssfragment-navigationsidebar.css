@@ -14,14 +14,14 @@
 .site-nav summary::after {
     content: ' ▼';
 }
-.site-nav details[open] summary:after {
+.site-nav details[open] > summary:after {
     content: " ▲";
 }
 
 
 
 .nav-list {
-    padding: 0;
+    padding: 0 0 0 1rem;
     margin-top: 0;
     margin-bottom: 0;
     list-style: none;
@@ -33,8 +33,6 @@
 }
 .nav-list .nav-list-item > .nav-list-link {
     display: block;
-    min-height: 2rem;
-    line-height: 2rem;
     padding: 0.5rem;
 }
 .nav-list .nav-list-item .nav-list-link.active {
@@ -42,10 +40,13 @@
     text-decoration: none;
 }
 
-/*.site-nav summary:hover, .site-nav summary.active,*/
-.nav-list .nav-list-item .nav-list-link:hover,
-.nav-list .nav-list-item .nav-list-link.active {
+.site-nav summary:hover, .site-nav summary.active,
+.nav-list .nav-list-item:hover,
+.nav-list .nav-list-item.active {
     background-image: linear-gradient(-90deg, var(--feedbackcolor) 0%, var(--feedbackcolor) 70%, #0000 100%);
+}
+.nav-list-link:hover {
+    background-color: var(--feedbackcolor);
 }
 .nav-list .nav-list-item > .nav-list {
     display: none;
