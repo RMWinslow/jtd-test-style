@@ -8,6 +8,11 @@
     display: flex;
     justify-content: space-between;
 }
+.site-nav summary > .nav-list-link {
+    padding: 0.5rem;
+    margin: -0.5rem;
+    min-width: 80%;
+}
 .site-nav summary::after {
     content: ' ▼';
     color: var(--accentcolor);
