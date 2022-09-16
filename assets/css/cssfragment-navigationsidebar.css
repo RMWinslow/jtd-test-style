@@ -12,6 +12,7 @@
     padding: 0.5rem;
     margin: -0.5rem;
     width: calc(100% - 1rem);
+    background-color: var(--boxcolor);
 }
 .site-nav summary::after {
     content: ' ▼';
@@ -20,9 +21,6 @@
 .site-nav details[open] > summary:after {
     content: " ▲";
     color: var(--accentcolor);
-}
-.site-nav summary::after:hover {
-    text-decoration: underline;
 }
 
 
