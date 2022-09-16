@@ -15,38 +15,6 @@
 
 
 
-<nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
-    <details><summary><a href="https://www.rmwinslow.com/research.html" class="nav-list-link">Research</a></summary>
-        <ul class="nav-list ">
-        <li class="nav-list-item "><a href="https://www.rmwinslow.com/research/contagion.html" class="nav-list-link">Branching Processes and Behavioral Choice</a></li>
-        <li class="nav-list-item "><a href="https://www.rmwinslow.com/research/reu.html" class="nav-list-link">Graph Two-Rankings</a></li>
-        <li class="nav-list-item "><a href="https://www.rmwinslow.com/research/mebdi22.html" class="nav-list-link">Predicting Unemployment Status</a></li></ul>
-    </details>
-    <details><summary><a href="https://www.rmwinslow.com/teaching.html" class="nav-list-link">Research</a></summary>
-    </details>
-    <details><summary><a href="https://www.rmwinslow.com/Notes.html" class="nav-list-link">Notes</a></summary>
-        
-        <ul class="nav-list">
-            <li class="nav-list-item ">
-            <a href="https://www.rmwinslow.com/3102/measurement-prices.html" class="nav-list-link">Prices</a>
-        </li>
-        <details><summary><a href="https://www.rmwinslow.com/3102/measurement.html" class="nav-list-link">Aggregate Measurement</a></summary>
-            <li class="nav-list-item  active">
-            <a href="https://www.rmwinslow.com/3102/measurement-gdp.html" class="nav-list-link active">Gross Domestic Product and more text to test line height</a>
-            </li><li class="nav-list-item ">
-                <a href="https://www.rmwinslow.com/3102/measurement-prices.html" class="nav-list-link">Prices</a>
-            </li><li class="nav-list-item ">
-                <a href="https://www.rmwinslow.com/3102/measurement-savings.html" class="nav-list-link">National Savings</a>
-            </li><li class="nav-list-item ">
-                <a href="https://www.rmwinslow.com/3102/measurement-labor.html" class="nav-list-link">Labor Aggregates</a>
-            </li><li class="nav-list-item ">
-                <a href="https://www.rmwinslow.com/3102/measurement-cylical.html" class="nav-list-link">Business Cycles</a>
-            </li>
-        </details>
-    </ul>
-    </details>
-
-</nav>
 
 
 1. sfdsf
