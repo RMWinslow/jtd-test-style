@@ -1,6 +1,6 @@
-.site-nav {
-    font-size: 14px !important;
-}
+/*Mobile and desktop font sizes*/
+.site-nav {font-size: 14px !important;}
+@media (min-width: 50rem) {.site-nav {font-size: 16px !important;}}
 
 .site-nav summary {
     padding: 0.5em;
