@@ -1,5 +1,5 @@
-.site-nav details {
-    font-size: 14px;
+.site-nav {
+    font-size: 14px !important;
 }
 
 .site-nav summary {
@@ -21,7 +21,6 @@
     content: " ▼";
 }
 
-
 .nav-list {
     padding: 0 0 0 1rem;
     margin-top: 0;
@@ -29,7 +28,6 @@
     list-style: none;
 }
 .nav-list .nav-list-item {
-    font-size: 14px !important;
     position: relative;
     margin: 0;
 }
@@ -37,11 +35,12 @@
     display: block;
     padding: 0.5rem;
 }
+
+/*Style active links and mouse-overs*/
 .nav-list .nav-list-item .nav-list-link.active {
     font-weight: 600;
     text-decoration: none;
 }
-
 .site-nav summary:hover, .site-nav summary.active,
 .nav-list .nav-list-item .nav-list-link:hover,
 .nav-list .nav-list-item .nav-list-link.active {
@@ -51,6 +50,7 @@
     text-decoration: underline;
 }
 
+/*Recursive lists are not the accent color, imitating the original JTD styling.*/
 .nav-list-item .nav-list .nav-list-link {
     color: var(--textcolor);
 }
