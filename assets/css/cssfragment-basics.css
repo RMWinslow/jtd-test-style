@@ -1,10 +1,7 @@
 * {
     box-sizing: border-box;
 }
-::selection {
-    color: var(--basecolor);
-    background: var(--accentcolor);
-}
+
 html {
     font-size: 14px !important;
     scroll-behavior: auto;
@@ -105,30 +102,20 @@ hr {
 
 @media (min-width: 50rem) {
     .main {
-        position: relative;
         max-width: 800px;
         margin-left: 248px;
     }
 }
 
 .main-content-wrap {
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 @media (min-width: 50rem) {
     .main-content-wrap {
-        padding-right: 2rem;
-        padding-left: 2rem;
+        padding: 2rem;
     }
 }
-@media (min-width: 50rem) {
-    .main-content-wrap {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-}
+
 .main-header {
     z-index: 0;
     display: none;
@@ -231,16 +218,10 @@ hr {
 
 
 body {
-    position: relative;
     padding-bottom: 4rem;
     overflow-y: scroll;
 }
-@media (min-width: 50rem) {
-    body {
-        position: static;
-        padding-bottom: 0;
-    }
-}
+
 .site-footer {
     padding-right: 1rem;
     padding-left: 1rem;
